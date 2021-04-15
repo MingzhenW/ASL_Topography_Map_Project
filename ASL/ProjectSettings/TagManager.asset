@@ -6,6 +6,10 @@ TagManager:
   tags:
   - MatchInfo
   - AvailableMatches
+  - Map
+  - Plane
+  - Chunk
+  - WhiteBoard
   layers:
   - Default
   - TransparentFX
