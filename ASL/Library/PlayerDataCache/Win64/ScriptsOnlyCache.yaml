@@ -14,6 +14,7 @@ ScriptsOnlyBuild:
     - PlayerControlInWaitingRoom
     - PlayerDrawRoute
     - PlayerMarkerGenerator
+    - PlayerMinimap
     - SpawnPlayer
     Google.XR.ARCoreExtensions.dll:
     - Google.XR.ARCoreExtensions.ARCoreExtensions
@@ -23,6 +24,8 @@ ScriptsOnlyBuild:
     Microsoft.MixedReality.Toolkit.Services.InputSystem.dll:
     - Microsoft.MixedReality.Toolkit.Input.GazeProvider
     - Microsoft.MixedReality.Toolkit.Input.MixedRealityInputModule
+    Unity.Mobile.AndroidLogcat.Editor.dll:
+    - Unity.Android.Logcat.AndroidLogcatManager
     Unity.Rider.Editor.dll:
     - Packages.Rider.Editor.UnitTesting.CallbackData
     Unity.TextMeshPro.dll:
@@ -128,9 +131,9 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 1616}
     - Class: 114
-      Script: {instanceID: 3686}
+      Script: {instanceID: 3732}
     - Class: 114
-      Script: {instanceID: 6142}
+      Script: {instanceID: 6188}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -179,7 +182,7 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 1616}
     - Class: 114
-      Script: {instanceID: 6142}
+      Script: {instanceID: 6188}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -229,6 +232,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 83
       Script: {instanceID: 0}
+    - Class: 84
+      Script: {instanceID: 0}
     - Class: 89
       Script: {instanceID: 0}
     - Class: 104
@@ -262,83 +267,85 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 1616}
     - Class: 114
-      Script: {instanceID: 1646}
+      Script: {instanceID: 1692}
     - Class: 114
-      Script: {instanceID: 1704}
+      Script: {instanceID: 1750}
     - Class: 114
-      Script: {instanceID: 1758}
+      Script: {instanceID: 1804}
     - Class: 114
-      Script: {instanceID: 2230}
+      Script: {instanceID: 2276}
     - Class: 114
-      Script: {instanceID: 2370}
+      Script: {instanceID: 2416}
     - Class: 114
-      Script: {instanceID: 2504}
+      Script: {instanceID: 2550}
     - Class: 114
-      Script: {instanceID: 2678}
+      Script: {instanceID: 2724}
     - Class: 114
-      Script: {instanceID: 2752}
+      Script: {instanceID: 2798}
     - Class: 114
-      Script: {instanceID: 2902}
+      Script: {instanceID: 2948}
     - Class: 114
-      Script: {instanceID: 3058}
+      Script: {instanceID: 3104}
     - Class: 114
-      Script: {instanceID: 3102}
+      Script: {instanceID: 3148}
     - Class: 114
-      Script: {instanceID: 3276}
+      Script: {instanceID: 3322}
     - Class: 114
-      Script: {instanceID: 3318}
+      Script: {instanceID: 3364}
     - Class: 114
-      Script: {instanceID: 3478}
+      Script: {instanceID: 3524}
     - Class: 114
-      Script: {instanceID: 3692}
+      Script: {instanceID: 3738}
     - Class: 114
-      Script: {instanceID: 3736}
+      Script: {instanceID: 3782}
     - Class: 114
-      Script: {instanceID: 4140}
+      Script: {instanceID: 4186}
     - Class: 114
-      Script: {instanceID: 4206}
+      Script: {instanceID: 4252}
     - Class: 114
-      Script: {instanceID: 4404}
+      Script: {instanceID: 4450}
     - Class: 114
-      Script: {instanceID: 4430}
+      Script: {instanceID: 4476}
     - Class: 114
-      Script: {instanceID: 5118}
+      Script: {instanceID: 5164}
     - Class: 114
-      Script: {instanceID: 5298}
+      Script: {instanceID: 5344}
     - Class: 114
-      Script: {instanceID: 5456}
+      Script: {instanceID: 5502}
     - Class: 114
-      Script: {instanceID: 5728}
+      Script: {instanceID: 5774}
     - Class: 114
-      Script: {instanceID: 5822}
+      Script: {instanceID: 5868}
     - Class: 114
-      Script: {instanceID: 5920}
+      Script: {instanceID: 5966}
     - Class: 114
-      Script: {instanceID: 6040}
+      Script: {instanceID: 6086}
     - Class: 114
-      Script: {instanceID: 6142}
+      Script: {instanceID: 6188}
     - Class: 114
-      Script: {instanceID: 6244}
+      Script: {instanceID: 6290}
     - Class: 114
-      Script: {instanceID: 6414}
+      Script: {instanceID: 6460}
     - Class: 114
-      Script: {instanceID: 6424}
+      Script: {instanceID: 6470}
     - Class: 114
-      Script: {instanceID: 6690}
+      Script: {instanceID: 6736}
     - Class: 114
-      Script: {instanceID: 6728}
+      Script: {instanceID: 6774}
     - Class: 114
-      Script: {instanceID: 7098}
+      Script: {instanceID: 7144}
     - Class: 114
-      Script: {instanceID: 7142}
+      Script: {instanceID: 7188}
     - Class: 114
-      Script: {instanceID: 7510}
+      Script: {instanceID: 7556}
     - Class: 114
-      Script: {instanceID: 7550}
+      Script: {instanceID: 7596}
     - Class: 114
-      Script: {instanceID: 7640}
+      Script: {instanceID: 7686}
     - Class: 114
-      Script: {instanceID: 7754}
+      Script: {instanceID: 7800}
+    - Class: 114
+      Script: {instanceID: 30108}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 120
@@ -3698,9 +3705,15 @@ ScriptsOnlyBuild:
     assemblyName: Microsoft.MixedReality.Toolkit.dll
     namespaceName: Microsoft.MixedReality.Toolkit.Utilities
     className: ClippingPlane
+  - hash:
+      serializedVersion: 2
+      Hash: 562cc013d31443bdd60f2371cc296e35
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: PlayerMinimap
   platform: 19
   scenePathNames:
   - Assets/Resources/Scene/WaitingRoom.unity
   - Assets/ASL/ASL_Scenes/ASL_LobbyScene.unity
   - Assets/ASL/ASL_Scenes/ASL_SceneLoader.unity
-  playerPath: C:/Users/wfwan/OneDrive/Desktop/T/ASL.exe
+  playerPath: C:/Users/Nick/Desktop/ASL_EXE/ASL.exe
