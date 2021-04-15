@@ -14,17 +14,11 @@ public class PlayerControlGlobalLight : MonoBehaviour
     void Start()
     {
         LightRotation = Quaternion.Euler(90, 0, 0);
-        //ASL.ASLHelper.InstantiateASLObject("Directional Light", new Vector3(0, 60, 0), LightRotation, "", "", GetLightObject);
     }
 
     void Update()
     {
     }
-
-    //private static void GetLightObject(GameObject _myGameObject)
-    //{
-    //    MyDirectionalLight = _myGameObject;
-    //}
 
     //Change direction of the light for all the user.
     public void SetLight()

@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class PlayerMarkerGenerator : MonoBehaviour
 {
@@ -9,6 +10,7 @@ public class PlayerMarkerGenerator : MonoBehaviour
     private static GameObject MarkerObject;
     private bool OneMarker = false;
     public static List<GameObject> PlayerSetMarker = new List<GameObject>();
+    public Dropdown MyDropdownList;
     // Start is called before the first frame update
     void Start()
     {
@@ -29,9 +31,10 @@ public class PlayerMarkerGenerator : MonoBehaviour
             RaycastHit Hit;
             if (Physics.Raycast(MouseRay, out Hit))
             {
-                if (Hit.collider.tag == "Chunk")
+                if (Hit.collider.tag == "Plane")
                 {
-                    ASL.ASLHelper.InstantiateASLObject("Marker", Hit.point, Quaternion.identity, "", "", GetHoldObject);
+                    string DropdownOpionValue = MyDropdownList.options[MyDropdownList.value].text;
+                    ASL.ASLHelper.InstantiateASLObject(DropdownOpionValue, Hit.point, Quaternion.identity, "", "", GetHoldObject);
                 }
                 else
                 {

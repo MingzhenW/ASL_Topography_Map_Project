@@ -6,6 +6,9 @@ TagManager:
   tags:
   - MatchInfo
   - AvailableMatches
+  - Map
+  - Plane
+  - Chunk
   layers:
   - Default
   - TransparentFX

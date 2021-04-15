@@ -15,12 +15,12 @@ C:/Users/wfwan/OneDrive/Desktop/ASL_Topography_Map_Project/ASL
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-57154
+57233
 Successfully changed project path to: C:/Users/wfwan/OneDrive/Desktop/ASL_Topography_Map_Project/ASL
 C:/Users/wfwan/OneDrive/Desktop/ASL_Topography_Map_Project/ASL
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 60.94 ms, found 7 plugins.
-Preloading 1 native plugins for Editor in 0.70 ms.
+Refreshing native plugins compatible for Editor in 63.63 ms, found 7 plugins.
+Preloading 1 native plugins for Editor in 0.68 ms.
 Initialize engine version: 2020.3.0f1 (c7b5465681fb)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.0f1/Editor/Data/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path C:/Users/wfwan/OneDrive/Desktop/ASL_Topography_Map_Project/ASL/Assets
@@ -35,70 +35,534 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.0f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.0f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.0f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56800
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56520
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.0f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.0f1/Editor/Data/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.0f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.0f1/Editor/Data/PlaybackEngines/LuminSupport/UnityEditor.Lumin.Extensions.dll
-Registered in 0.002644 seconds.
+Registered in 0.002739 seconds.
 Native extension for Lumin target not found
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 56.81 ms, found 7 plugins.
+Refreshing native plugins compatible for Editor in 55.37 ms, found 7 plugins.
+Preloading 1 native plugins for Editor in 0.10 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.706 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.009479 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for Lumin target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 56.89 ms, found 7 plugins.
 Preloading 1 native plugins for Editor in 0.09 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.685 seconds
-Platform modules already initialized, skipping
-Registering precompiled user dll's ...
-Registered in 0.009948 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for Lumin target not found
-Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.89 ms, found 7 plugins.
-Preloading 1 native plugins for Editor in 0.07 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.765 seconds
+- Completed reload, in  2.019 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
-Refreshing native plugins compatible for Editor in 0.81 ms, found 7 plugins.
+Refreshing native plugins compatible for Editor in 0.99 ms, found 7 plugins.
 Preloading 1 native plugins for Editor in 0.07 ms.
-Unloading 3183 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 125.4 MB.
-System memory in use after: 125.6 MB.
+Unloading 3560 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 174.1 MB.
+System memory in use after: 172.7 MB.
 
-Unloading 28 unused Assets to reduce memory usage. Loaded Objects now: 3605.
-Total: 1.939600 ms (FindLiveObjects: 0.290600 ms CreateObjectMapping: 0.136100 ms MarkObjects: 1.449400 ms  DeleteObjects: 0.062200 ms)
+Unloading 2469 unused Assets to reduce memory usage. Loaded Objects now: 3638.
+Total: 5.440400 ms (FindLiveObjects: 0.538700 ms CreateObjectMapping: 0.264000 ms MarkObjects: 2.221100 ms  DeleteObjects: 2.414900 ms)
 
 ========================================================================
 Received Import Request.
-  path: Assets/ASL
-  artifactKey: Guid(160bb6e64b06aa648a5940ad3d28acfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ASL using Guid(160bb6e64b06aa648a5940ad3d28acfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3cf6fcdf14b2763f9328b8a34031ebd9') in 0.007746 seconds
-  Import took 0.012049 seconds .
+  path: Assets/Resources
+  artifactKey: Guid(cec79c759a51de94380e37b7008bd66b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources using Guid(cec79c759a51de94380e37b7008bd66b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0fdb179561ca77cadce335f7d29bc658') in 0.008845 seconds
+  Import took 0.013604 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.709548 seconds.
+  path: Assets/Resources/Scene
+  artifactKey: Guid(ddba9e040deb35b4cb83cf180593126d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Scene using Guid(ddba9e040deb35b4cb83cf180593126d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d6730abb9a8784ebed61af72b3036f8') in 0.005128 seconds
+  Import took 0.009747 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.389502 seconds.
+  path: Assets/Resources/Scene/Scene.unity
+  artifactKey: Guid(63b1f0567ad33814cb31f74872adc963) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Scene/Scene.unity using Guid(63b1f0567ad33814cb31f74872adc963) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1bf001defebc5d5df57fbb1c2f3053a') in 0.014442 seconds
+  Import took 0.019198 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.482687 seconds.
+  path: Assets/Resources/Scene/WaitingRoom.unity
+  artifactKey: Guid(63b1f0567ad33814cb31f74872adc963) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Scene/WaitingRoom.unity using Guid(63b1f0567ad33814cb31f74872adc963) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc276a09f5262858fad678c049d2a953') in 0.006727 seconds
+  Import took 0.011413 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000427 seconds.
+  path: Assets/Resources/Scene/WaitingRoom.unity
+  artifactKey: Guid(63b1f0567ad33814cb31f74872adc963) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Scene/WaitingRoom.unity using Guid(63b1f0567ad33814cb31f74872adc963) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc276a09f5262858fad678c049d2a953') in 0.002077 seconds
+  Import took 0.006824 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.009355 seconds.
+Registered in 0.009382 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for Lumin target not found
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 49.79 ms, found 7 plugins.
+Refreshing native plugins compatible for Editor in 0.95 ms, found 7 plugins.
+Preloading 1 native plugins for Editor in 0.08 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Error when attempting to update scene info fields. Scene info data may be stale.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+Microsoft.MixedReality.Toolkit.Editor.SceneInfoUtils:RefreshSceneInfoFieldsInScriptableObjects () (at Assets/ASL/MRTK/Core/Inspectors/PropertyDrawers/SceneInfoUtils.cs:313)
+Microsoft.MixedReality.Toolkit.Editor.SceneInfoUtils:InitializeOnLoad () (at Assets/ASL/MRTK/Core/Inspectors/PropertyDrawers/SceneInfoUtils.cs:231)
+
+(Filename: Assets/ASL/MRTK/Core/Inspectors/PropertyDrawers/SceneInfoUtils.cs Line: 313)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.532 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.42 ms, found 7 plugins.
+Preloading 1 native plugins for Editor in 0.10 ms.
+Unloading 3460 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 167.0 MB.
+System memory in use after: 165.6 MB.
+
+Unloading 2334 unused Assets to reduce memory usage. Loaded Objects now: 3650.
+Total: 5.850800 ms (FindLiveObjects: 0.572400 ms CreateObjectMapping: 0.290700 ms MarkObjects: 2.482900 ms  DeleteObjects: 2.502300 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 160.534493 seconds.
+  path: Assets/Resources/Script
+  artifactKey: Guid(6ac1d7d938c42204fa283a8a51e08df9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Script using Guid(6ac1d7d938c42204fa283a8a51e08df9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b5685b19f7589cab0458c60ca43ef3b') in 0.009953 seconds
+  Import took 0.016444 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 56.872491 seconds.
+  path: Assets/Resources/Script/Player
+  artifactKey: Guid(47ab78ad4cf2909469736dbb6c7c9b4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Script/Player using Guid(47ab78ad4cf2909469736dbb6c7c9b4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4970cff42c35d926fd1b3ebb75b3b565') in 0.005206 seconds
+  Import took 0.010193 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.355396 seconds.
+  path: Assets/Resources/Script/Player/PlayerControlICameraWaitingRoom.cs
+  artifactKey: Guid(9dc265e8bce4a044298a257fce5ca9a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Script/Player/PlayerControlICameraWaitingRoom.cs using Guid(9dc265e8bce4a044298a257fce5ca9a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3adda6ca760a304b60e103ec4e21e389') in 0.032950 seconds
+  Import took 0.037789 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.617320 seconds.
+  path: Assets/Resources/Script/Player/PlayerControlInWaitingRoom.cs
+  artifactKey: Guid(a74340e936f202e459d10e3122f03a8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Script/Player/PlayerControlInWaitingRoom.cs using Guid(a74340e936f202e459d10e3122f03a8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f63ed77708e222016ad18d5ce5e901c') in 0.005392 seconds
+  Import took 0.010636 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001886 seconds.
+  path: Assets/Resources/Script/Player/PlayerControlInWaitingRoom.cs
+  artifactKey: Guid(a74340e936f202e459d10e3122f03a8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Script/Player/PlayerControlInWaitingRoom.cs using Guid(a74340e936f202e459d10e3122f03a8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f63ed77708e222016ad18d5ce5e901c') in 0.001836 seconds
+  Import took 0.006883 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.126777 seconds.
+  path: Assets/Resources/Script/Player/PlayerControlGlobalLight.cs
+  artifactKey: Guid(70c48df43e0c95d4ba4a371f2039a1ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Script/Player/PlayerControlGlobalLight.cs using Guid(70c48df43e0c95d4ba4a371f2039a1ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '676d63dea70c0b97c037c0bbc78d9788') in 0.005223 seconds
+  Import took 0.010520 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002047 seconds.
+  path: Assets/Resources/Script/Player/PlayerControlGlobalLight.cs
+  artifactKey: Guid(70c48df43e0c95d4ba4a371f2039a1ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Script/Player/PlayerControlGlobalLight.cs using Guid(70c48df43e0c95d4ba4a371f2039a1ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '676d63dea70c0b97c037c0bbc78d9788') in 0.001687 seconds
+  Import took 0.006321 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 152.157112 seconds.
+  path: Assets/Resources/Script/Player/PlayerControlFlashLight.cs
+  artifactKey: Guid(043e59d073ef2e2488dd27ca54a92ea9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Script/Player/PlayerControlFlashLight.cs using Guid(043e59d073ef2e2488dd27ca54a92ea9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6b1c5392e549417b20b2781bd093707') in 0.005903 seconds
+  Import took 0.010819 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001645 seconds.
+  path: Assets/Resources/Script/Player/PlayerControlFlashLight.cs
+  artifactKey: Guid(043e59d073ef2e2488dd27ca54a92ea9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Script/Player/PlayerControlFlashLight.cs using Guid(043e59d073ef2e2488dd27ca54a92ea9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6b1c5392e549417b20b2781bd093707') in 0.001682 seconds
+  Import took 0.006136 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.986809 seconds.
+  path: Assets/Resources/Script/Player/PlayerDrawRoute.cs
+  artifactKey: Guid(eb4d93f6a65226b46a64d3bf4f7b05f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Script/Player/PlayerDrawRoute.cs using Guid(eb4d93f6a65226b46a64d3bf4f7b05f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '912f30beb78bafdb67e60788200b8562') in 0.005416 seconds
+  Import took 0.010491 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000764 seconds.
+  path: Assets/Resources/Script/Player/PlayerDrawRoute.cs
+  artifactKey: Guid(eb4d93f6a65226b46a64d3bf4f7b05f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Script/Player/PlayerDrawRoute.cs using Guid(eb4d93f6a65226b46a64d3bf4f7b05f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '912f30beb78bafdb67e60788200b8562') in 0.001726 seconds
+  Import took 0.006629 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.258382 seconds.
+  path: Assets/Resources/Script/Player/PlayerMarkerGenerator.cs
+  artifactKey: Guid(c7ab58c6c49c03d4b9ca7cfe88a28a1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Script/Player/PlayerMarkerGenerator.cs using Guid(c7ab58c6c49c03d4b9ca7cfe88a28a1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3ec1dc8f04c1f815fbd57da2e590807') in 0.007999 seconds
+  Import took 0.012736 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001220 seconds.
+  path: Assets/Resources/Script/Player/PlayerMarkerGenerator.cs
+  artifactKey: Guid(c7ab58c6c49c03d4b9ca7cfe88a28a1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Script/Player/PlayerMarkerGenerator.cs using Guid(c7ab58c6c49c03d4b9ca7cfe88a28a1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3ec1dc8f04c1f815fbd57da2e590807') in 0.001869 seconds
+  Import took 0.006533 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.299300 seconds.
+  path: Assets/Resources/Script/Player/SpawnPlayer.cs
+  artifactKey: Guid(e2e94f4eda5d45b41898276f60603b9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Script/Player/SpawnPlayer.cs using Guid(e2e94f4eda5d45b41898276f60603b9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '320ed73caf9d8c87a406c695684eeea6') in 0.006318 seconds
+  Import took 0.012413 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000551 seconds.
+  path: Assets/Resources/Script/Player/SpawnPlayer.cs
+  artifactKey: Guid(e2e94f4eda5d45b41898276f60603b9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Script/Player/SpawnPlayer.cs using Guid(e2e94f4eda5d45b41898276f60603b9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '320ed73caf9d8c87a406c695684eeea6') in 0.001862 seconds
+  Import took 0.006559 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 163.770331 seconds.
+  path: Assets/Resources/MyPrefabs
+  artifactKey: Guid(3c0f2fbd27c3f3d4b93cae1b86c0c4c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/MyPrefabs using Guid(3c0f2fbd27c3f3d4b93cae1b86c0c4c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7978bc76b3e2d78c68f020407350c0d') in 0.006337 seconds
+  Import took 0.012094 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000988 seconds.
+  path: Assets/Resources/MyPrefabs
+  artifactKey: Guid(3c0f2fbd27c3f3d4b93cae1b86c0c4c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/MyPrefabs using Guid(3c0f2fbd27c3f3d4b93cae1b86c0c4c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7978bc76b3e2d78c68f020407350c0d') in 0.001929 seconds
+  Import took 0.007155 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.029955 seconds.
+  path: Assets/Resources/MyPrefabs/_ASL_ExamplePrefab.prefab
+  artifactKey: Guid(ad74f64dcc13f3b4691bdbdf500b96a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/MyPrefabs/_ASL_ExamplePrefab.prefab using Guid(ad74f64dcc13f3b4691bdbdf500b96a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cad6a74e447fb19d322fde7fbb8ccc40') in 0.275195 seconds
+  Import took 0.281000 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 20.299336 seconds.
+  path: Assets/Resources/MyPrefabs/MarkerMaterial.mat
+  artifactKey: Guid(9f7a07c6d980335458ba3f7c70a08f1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/MyPrefabs/MarkerMaterial.mat using Guid(9f7a07c6d980335458ba3f7c70a08f1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15c401605583aff5b848494ac27acdee') in 0.037965 seconds
+  Import took 0.042680 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.202555 seconds.
+  path: Assets/Resources/MyPrefabs/MarkerMaterial.mat
+  artifactKey: Guid(9f7a07c6d980335458ba3f7c70a08f1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/MyPrefabs/MarkerMaterial.mat using Guid(9f7a07c6d980335458ba3f7c70a08f1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ee67088409668ea22a6e616c2a7004a') in 0.009470 seconds
+  Import took 0.014944 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.664176 seconds.
+  path: Assets/Resources/MyPrefabs/Marker.prefab
+  artifactKey: Guid(dc90ceb2079c4674cabd850f719464af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/MyPrefabs/Marker.prefab using Guid(dc90ceb2079c4674cabd850f719464af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b17de371993fc6e846893972d9a73d7') in 0.008777 seconds
+  Import took 0.013753 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.986796 seconds.
+  path: Assets/Resources/MyPrefabs/Marker.prefab
+  artifactKey: Guid(dc90ceb2079c4674cabd850f719464af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/MyPrefabs/Marker.prefab using Guid(dc90ceb2079c4674cabd850f719464af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba2aeb7265edef1fbcad6bfad0afb20b') in 0.008763 seconds
+  Import took 0.013773 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 27.875660 seconds.
+  path: Assets/Resources/MyPrefabs/PlanMaterial.mat
+  artifactKey: Guid(414abad5f5328534fb67f454b5c2f8d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/MyPrefabs/PlanMaterial.mat using Guid(414abad5f5328534fb67f454b5c2f8d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de444fade9bf058e8a8e061a451eb3c5') in 0.012447 seconds
+  Import took 0.018141 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.196397 seconds.
+  path: Assets/Resources/MyPrefabs/PlanMaterial.mat
+  artifactKey: Guid(414abad5f5328534fb67f454b5c2f8d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/MyPrefabs/PlanMaterial.mat using Guid(414abad5f5328534fb67f454b5c2f8d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f93edac63fc0849ca9d9ffaddf48c2f') in 0.008846 seconds
+  Import took 0.013943 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 37.838199 seconds.
+  path: Assets/Resources/MyPrefabs/PlayerCube.prefab
+  artifactKey: Guid(805b3d8c0ec98364784b502de526aa3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/MyPrefabs/PlayerCube.prefab using Guid(805b3d8c0ec98364784b502de526aa3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b07a15b9cb5d71b6fffbd58215cf202') in 0.010210 seconds
+  Import took 0.015110 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 33.180972 seconds.
+  path: Assets/Resources/MyPrefabs/RouteMaterial.mat
+  artifactKey: Guid(42c0559bce5a15d428ff570d4f407b8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/MyPrefabs/RouteMaterial.mat using Guid(42c0559bce5a15d428ff570d4f407b8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '938308ede5d79b3b7eeb2f92c0e1dc0e') in 0.010603 seconds
+  Import took 0.015790 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.758131 seconds.
+  path: Assets/Resources/MyPrefabs/RouteMaterial.mat
+  artifactKey: Guid(42c0559bce5a15d428ff570d4f407b8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/MyPrefabs/RouteMaterial.mat using Guid(42c0559bce5a15d428ff570d4f407b8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2cbd5e8ecc9846096b6c6f0ff46e04a7') in 0.009861 seconds
+  Import took 0.015514 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.508291 seconds.
+  path: Assets/Resources/MyPrefabs/PlayerFlashLight.prefab
+  artifactKey: Guid(f668de65bf3f06b41a42dcfe6ea0b2ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/MyPrefabs/PlayerFlashLight.prefab using Guid(f668de65bf3f06b41a42dcfe6ea0b2ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7a85f4c8b4ea7d26b69a37b612b1199') in 0.006993 seconds
+  Import took 0.012361 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.315218 seconds.
+  path: Assets/Resources/MyPrefabs/PlayerFlashLight.prefab
+  artifactKey: Guid(f668de65bf3f06b41a42dcfe6ea0b2ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/MyPrefabs/PlayerFlashLight.prefab using Guid(f668de65bf3f06b41a42dcfe6ea0b2ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'acd37fae218151c2a674dadbd5848132') in 0.003285 seconds
+  Import took 0.008650 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.010429 seconds.
+  path: Assets/Resources/MyPrefabs/PlayerFlashLight.prefab
+  artifactKey: Guid(f668de65bf3f06b41a42dcfe6ea0b2ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/MyPrefabs/PlayerFlashLight.prefab using Guid(f668de65bf3f06b41a42dcfe6ea0b2ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'acd37fae218151c2a674dadbd5848132') in 0.003399 seconds
+  Import took 0.008717 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.500939 seconds.
+  path: Assets/Resources/MyPrefabs/PlayerFlashLight.prefab
+  artifactKey: Guid(f668de65bf3f06b41a42dcfe6ea0b2ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/MyPrefabs/PlayerFlashLight.prefab using Guid(f668de65bf3f06b41a42dcfe6ea0b2ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7766f15f8830fed2187565ee44619c3f') in 0.003348 seconds
+  Import took 0.008500 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.009884 seconds.
+  path: Assets/Resources/MyPrefabs/PlayerFlashLight.prefab
+  artifactKey: Guid(f668de65bf3f06b41a42dcfe6ea0b2ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/MyPrefabs/PlayerFlashLight.prefab using Guid(f668de65bf3f06b41a42dcfe6ea0b2ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7766f15f8830fed2187565ee44619c3f') in 0.003696 seconds
+  Import took 0.008821 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.600493 seconds.
+  path: Assets/Resources/MyPrefabs/PlayerFlashLight.prefab
+  artifactKey: Guid(f668de65bf3f06b41a42dcfe6ea0b2ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/MyPrefabs/PlayerFlashLight.prefab using Guid(f668de65bf3f06b41a42dcfe6ea0b2ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d39df1f0471c3afe2e1ab02d2403b86') in 0.002923 seconds
+  Import took 0.007838 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.610489 seconds.
+  path: Assets/Resources/MyPrefabs/PlayerFlashLight.prefab
+  artifactKey: Guid(f668de65bf3f06b41a42dcfe6ea0b2ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/MyPrefabs/PlayerFlashLight.prefab using Guid(f668de65bf3f06b41a42dcfe6ea0b2ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3cd3364947aec4fdda7cdd8469b37505') in 0.003096 seconds
+  Import took 0.007955 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.306454 seconds.
+  path: Assets/Resources/MyPrefabs/PlayerFlashLight.prefab
+  artifactKey: Guid(f668de65bf3f06b41a42dcfe6ea0b2ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/MyPrefabs/PlayerFlashLight.prefab using Guid(f668de65bf3f06b41a42dcfe6ea0b2ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61bb55b18ba6a482ec193de0a29a9f99') in 0.002972 seconds
+  Import took 0.007742 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.009594 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for Lumin target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.73 ms, found 7 plugins.
+Preloading 1 native plugins for Editor in 0.15 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Error when attempting to update scene info fields. Scene info data may be stale.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+Microsoft.MixedReality.Toolkit.Editor.SceneInfoUtils:RefreshSceneInfoFieldsInScriptableObjects () (at Assets/ASL/MRTK/Core/Inspectors/PropertyDrawers/SceneInfoUtils.cs:313)
+Microsoft.MixedReality.Toolkit.Editor.SceneInfoUtils:InitializeOnLoad () (at Assets/ASL/MRTK/Core/Inspectors/PropertyDrawers/SceneInfoUtils.cs:231)
+
+(Filename: Assets/ASL/MRTK/Core/Inspectors/PropertyDrawers/SceneInfoUtils.cs Line: 313)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.677 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.48 ms, found 7 plugins.
+Preloading 1 native plugins for Editor in 0.11 ms.
+Unloading 3460 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 170.6 MB.
+System memory in use after: 168.9 MB.
+
+Unloading 2335 unused Assets to reduce memory usage. Loaded Objects now: 3693.
+Total: 9.172400 ms (FindLiveObjects: 0.947500 ms CreateObjectMapping: 0.463400 ms MarkObjects: 3.535800 ms  DeleteObjects: 4.223000 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 202.766275 seconds.
+  path: Assets/Resources/MyPrefabs/PlayerCube.prefab
+  artifactKey: Guid(805b3d8c0ec98364784b502de526aa3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/MyPrefabs/PlayerCube.prefab using Guid(805b3d8c0ec98364784b502de526aa3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5530034c09a6f09e55a0925394518cb4') in 0.049289 seconds
+  Import took 0.055675 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.009433 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for Lumin target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.14 ms, found 7 plugins.
+Preloading 1 native plugins for Editor in 0.11 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Error when attempting to update scene info fields. Scene info data may be stale.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+Microsoft.MixedReality.Toolkit.Editor.SceneInfoUtils:RefreshSceneInfoFieldsInScriptableObjects () (at Assets/ASL/MRTK/Core/Inspectors/PropertyDrawers/SceneInfoUtils.cs:313)
+Microsoft.MixedReality.Toolkit.Editor.SceneInfoUtils:InitializeOnLoad () (at Assets/ASL/MRTK/Core/Inspectors/PropertyDrawers/SceneInfoUtils.cs:231)
+
+(Filename: Assets/ASL/MRTK/Core/Inspectors/PropertyDrawers/SceneInfoUtils.cs Line: 313)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.676 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.46 ms, found 7 plugins.
+Preloading 1 native plugins for Editor in 0.12 ms.
+Unloading 3460 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 170.7 MB.
+System memory in use after: 169.1 MB.
+
+Unloading 2335 unused Assets to reduce memory usage. Loaded Objects now: 3698.
+Total: 7.285800 ms (FindLiveObjects: 0.620000 ms CreateObjectMapping: 0.434300 ms MarkObjects: 2.533100 ms  DeleteObjects: 3.696200 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.009383 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for Lumin target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.38 ms, found 7 plugins.
+Preloading 1 native plugins for Editor in 0.13 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Error when attempting to update scene info fields. Scene info data may be stale.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+Microsoft.MixedReality.Toolkit.Editor.SceneInfoUtils:RefreshSceneInfoFieldsInScriptableObjects () (at Assets/ASL/MRTK/Core/Inspectors/PropertyDrawers/SceneInfoUtils.cs:313)
+Microsoft.MixedReality.Toolkit.Editor.SceneInfoUtils:InitializeOnLoad () (at Assets/ASL/MRTK/Core/Inspectors/PropertyDrawers/SceneInfoUtils.cs:231)
+
+(Filename: Assets/ASL/MRTK/Core/Inspectors/PropertyDrawers/SceneInfoUtils.cs Line: 313)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.710 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.56 ms, found 7 plugins.
+Preloading 1 native plugins for Editor in 0.10 ms.
+Unloading 3460 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 170.7 MB.
+System memory in use after: 169.4 MB.
+
+Unloading 2334 unused Assets to reduce memory usage. Loaded Objects now: 3702.
+Total: 6.790000 ms (FindLiveObjects: 0.723900 ms CreateObjectMapping: 0.598500 ms MarkObjects: 2.691200 ms  DeleteObjects: 2.774500 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.009140 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for Lumin target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.54 ms, found 7 plugins.
 Preloading 1 native plugins for Editor in 0.10 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
@@ -114,87 +578,15 @@ Microsoft.MixedReality.Toolkit.Editor.SceneInfoUtils:InitializeOnLoad () (at Ass
 (Filename: Assets/ASL/MRTK/Core/Inspectors/PropertyDrawers/SceneInfoUtils.cs Line: 313)
 
 Mono: successfully reloaded assembly
-- Completed reload, in  1.846 seconds
+- Completed reload, in  1.701 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.84 ms, found 7 plugins.
-Preloading 1 native plugins for Editor in 0.07 ms.
-Unloading 3434 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 163.1 MB.
-System memory in use after: 161.8 MB.
-
-Unloading 2250 unused Assets to reduce memory usage. Loaded Objects now: 3630.
-Total: 5.378200 ms (FindLiveObjects: 0.620600 ms CreateObjectMapping: 0.390800 ms MarkObjects: 2.148200 ms  DeleteObjects: 2.217200 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.009081 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for Lumin target not found
-Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.84 ms, found 7 plugins.
-Preloading 1 native plugins for Editor in 0.08 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Error when attempting to update scene info fields. Scene info data may be stale.
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogWarning (object)
-Microsoft.MixedReality.Toolkit.Editor.SceneInfoUtils:RefreshSceneInfoFieldsInScriptableObjects () (at Assets/ASL/MRTK/Core/Inspectors/PropertyDrawers/SceneInfoUtils.cs:313)
-Microsoft.MixedReality.Toolkit.Editor.SceneInfoUtils:InitializeOnLoad () (at Assets/ASL/MRTK/Core/Inspectors/PropertyDrawers/SceneInfoUtils.cs:231)
-
-(Filename: Assets/ASL/MRTK/Core/Inspectors/PropertyDrawers/SceneInfoUtils.cs Line: 313)
-
-Mono: successfully reloaded assembly
-- Completed reload, in  1.616 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.83 ms, found 7 plugins.
-Preloading 1 native plugins for Editor in 0.07 ms.
-Unloading 3456 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 166.9 MB.
-System memory in use after: 165.6 MB.
-
-Unloading 2337 unused Assets to reduce memory usage. Loaded Objects now: 3639.
-Total: 5.362500 ms (FindLiveObjects: 0.794400 ms CreateObjectMapping: 0.484200 ms MarkObjects: 1.948600 ms  DeleteObjects: 2.133900 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.009336 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for Lumin target not found
-Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.91 ms, found 7 plugins.
-Preloading 1 native plugins for Editor in 0.08 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Error when attempting to update scene info fields. Scene info data may be stale.
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogWarning (object)
-Microsoft.MixedReality.Toolkit.Editor.SceneInfoUtils:RefreshSceneInfoFieldsInScriptableObjects () (at Assets/ASL/MRTK/Core/Inspectors/PropertyDrawers/SceneInfoUtils.cs:313)
-Microsoft.MixedReality.Toolkit.Editor.SceneInfoUtils:InitializeOnLoad () (at Assets/ASL/MRTK/Core/Inspectors/PropertyDrawers/SceneInfoUtils.cs:231)
-
-(Filename: Assets/ASL/MRTK/Core/Inspectors/PropertyDrawers/SceneInfoUtils.cs Line: 313)
-
-Mono: successfully reloaded assembly
-- Completed reload, in  1.607 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.20 ms, found 7 plugins.
+Refreshing native plugins compatible for Editor in 1.25 ms, found 7 plugins.
 Preloading 1 native plugins for Editor in 0.09 ms.
-Unloading 3455 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 167.0 MB.
-System memory in use after: 165.7 MB.
+Unloading 3460 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 170.8 MB.
+System memory in use after: 169.5 MB.
 
-Unloading 2337 unused Assets to reduce memory usage. Loaded Objects now: 3643.
-Total: 5.576600 ms (FindLiveObjects: 0.538000 ms CreateObjectMapping: 0.287900 ms MarkObjects: 2.414500 ms  DeleteObjects: 2.335100 ms)
+Unloading 2334 unused Assets to reduce memory usage. Loaded Objects now: 3706.
+Total: 8.100300 ms (FindLiveObjects: 0.890200 ms CreateObjectMapping: 0.509300 ms MarkObjects: 3.066400 ms  DeleteObjects: 3.632600 ms)
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file

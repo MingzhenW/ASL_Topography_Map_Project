@@ -4,9 +4,10 @@ using UnityEngine;
 
 public class PlayerControlFlashLight : MonoBehaviour
 {
-    public GameObject PlayerObject;
+    public Camera PlayerCamera;
     private static GameObject MyFlashLight;
     private bool IfOn = false;
+    private static bool StartUpdate = false;
     // Start is called before the first frame update
     void Start()
     {
@@ -16,8 +17,11 @@ public class PlayerControlFlashLight : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        UpdateFlashLightPositionAndRotation();
-        ControlFlashLight();
+        if (StartUpdate)
+        {
+            UpdateFlashLightPositionAndRotation();
+            ControlFlashLight();
+        }
     }
 
     private void ControlFlashLight()
@@ -39,13 +43,17 @@ public class PlayerControlFlashLight : MonoBehaviour
 
     private void UpdateFlashLightPositionAndRotation()
     {
-        MyFlashLight.transform.position = PlayerObject.transform.position;
-        MyFlashLight.transform.rotation = PlayerObject.transform.rotation;
+        if (MyFlashLight.activeSelf == false)
+        {
+            return;
+        }
+        MyFlashLight.transform.position = PlayerCamera.transform.position;
+        MyFlashLight.transform.rotation = PlayerCamera.transform.rotation;
 
         MyFlashLight.GetComponent<ASL.ASLObject>().SendAndSetClaim(() =>
         {
-            MyFlashLight.GetComponent<ASL.ASLObject>().SendAndSetWorldRotation(PlayerObject.transform.rotation);
-            MyFlashLight.GetComponent<ASL.ASLObject>().SendAndSetWorldPosition(PlayerObject.transform.position);
+            MyFlashLight.GetComponent<ASL.ASLObject>().SendAndSetWorldRotation(PlayerCamera.transform.rotation);
+            MyFlashLight.GetComponent<ASL.ASLObject>().SendAndSetWorldPosition(PlayerCamera.transform.position);
         });
     }
 
@@ -53,5 +61,6 @@ public class PlayerControlFlashLight : MonoBehaviour
     {
         MyFlashLight = _myGameObject;
         MyFlashLight.SetActive(false);
+        StartUpdate = true;
     }
 }
