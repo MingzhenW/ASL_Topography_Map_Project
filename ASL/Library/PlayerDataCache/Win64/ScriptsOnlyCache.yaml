@@ -236,6 +236,8 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
+      Script: {instanceID: -282}
+    - Class: 114
       Script: {instanceID: 1580}
     - Class: 114
       Script: {instanceID: 1582}
@@ -2464,7 +2466,7 @@ ScriptsOnlyBuild:
     className: RectTransformCubeScaler
   - hash:
       serializedVersion: 2
-      Hash: 1511abc716f156d4c6f258c286be9b0c
+      Hash: 4a40dd864bb8796283e117e929af1401
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: PlayerDrawRoute
