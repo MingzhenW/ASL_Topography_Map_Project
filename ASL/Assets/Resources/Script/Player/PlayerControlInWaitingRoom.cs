@@ -9,6 +9,9 @@ public class PlayerControlInWaitingRoom : MonoBehaviour
     public CharacterController PlayerController;
     private Vector3 NewMove;
 
+    private void Awake() {
+        PlayerController = GetComponent<CharacterController>();
+    }
     // Start is called before the first frame update
     void Start()
     {
